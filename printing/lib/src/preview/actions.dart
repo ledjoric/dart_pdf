@@ -168,7 +168,7 @@ class PdfShareAction extends StatelessWidget with PdfPreviewActionBounds {
     this.emails,
     this.onShared,
     this.onShareError,
-  })  : icon = icon ?? const Icon(Icons.share),
+  })  : icon = icon ?? const Icon(Icons.download_rounded),
         filename = filename ?? 'document.pdf';
 
   final Widget icon;
